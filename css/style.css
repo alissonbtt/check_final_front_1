@@ -7,13 +7,14 @@
 
 .back{
     background-color: black;
+    /* display: flex; */
 }
 
 .banner{
     background-image: url('../img/madmax.jpg');  
     background-attachment: fixed; 
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     width: 100%;
     height: 450px;
@@ -40,7 +41,7 @@
 }
 
 .slides{
-        margin: auto;
+        margin: 40px auto;
         width: 200px;
     
 }
@@ -59,7 +60,6 @@
     width: 230px;
 }
 
-
 .detalhe__filme{
     margin: 30px auto;
     width: 1000px;
@@ -69,5 +69,34 @@
 .detalhe__filme__descricao{
     margin: 60px auto auto 60px;
     color: white;
+}
+
+.tela_login{
+    background-color: #212529;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin: 10% auto;
+
+} 
+
+.login__group{
+    width: 350px;
+    margin: auto;
+    padding: 55px 0;
+    
+}
+
+.tela_login_titulo{
+    color: white;
+}  
+
+
+.login__titulo{
+    color: white;
+}
+
+.botao_entrar{
+    margin: 50px 0 0 0;
 }
 
